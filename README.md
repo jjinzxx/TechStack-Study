@@ -8,15 +8,14 @@
 ## 👨‍💻 이 저장소를 만든 이유
 
 - 기술을 “사용”하는 수준을 넘어 **설명 가능한 이해**를 목표로 함
-- 면접에서 **개념 질문 → 구현 경험 → 트레이드오프**까지 연결하기 위함
 - 학습 과정을 구조화하여 **재사용 가능한 기술 노트**로 축적
+- 백엔드 개발에 필요한 **기초 체력(언어 + 사고력)** 강화
 
 <br>
 
 ## 🎯 목적
 
-- Java / Spring Boot 기반 백엔드 핵심 개념 정리
-- HTTP, REST API, DB, JPA 등 실무 필수 기술 이해
+- 특정 프레임워크에 종속되지 않고, **언어별 특성과 공통 개념을 비교·이해하는 것을 목표**
 - GitHub 포트폴리오로 활용 가능한 학습 기록 축적
 - “왜 이렇게 동작하는지” 설명할 수 있는 개발자 되기
 
@@ -25,13 +24,7 @@
 
 ## 🛠️ 기술 스택
 
-- **Language**: Java  
-- **Framework**: Spring Boot  
-- **Web**: HTTP, REST API  
-- **Database**: MySQL / PostgreSQL  
-- **ORM**: JPA (Hibernate)  
-- **Infra / Tool**: Git, GitHub, Docker  
-- **Documentation**: Markdown, Swagger(OpenAPI)
+- **Language**: Python, Java , C / C++, C#, JavaScript
 
 <br>
 
@@ -39,33 +32,46 @@
 
 ```
 TechStack-Study
-├─ java-core
-│ └─ README.md # JVM, 객체지향, 컬렉션, 예외
-├─ http-rest
-│ └─ README.md # HTTP 구조, REST 설계 기준
-├─ database
-│ └─ README.md # SQL, 정규화, 인덱스
-├─ git-docker
-│ └─ README.md # Git 흐름, Docker 기반 DB 구성
-├─ spring-boot-sample-api
-│ ├─ member
-│ ├─ board
-│ └─ README.md # 설계 의도 + API 설명
+├─ python
+│ └─ README.md # 문법 특징, 활용 사례, 장단점
+├─ java
+│ └─ README.md # JVM, OOP, 메모리 구조
+├─ c-cpp
+│ └─ README.md # 메모리, 포인터, 컴파일 과정
+├─ csharp
+│ └─ README.md # .NET 구조, 객체지향
+├─ javascript
+│ └─ README.md # 실행 모델, 비동기 처리
 └─ README.md
 ```
 
-- **sample-api**: 실제 API 구현을 통한 검증
+- **언어 단위 분리**: 주제 집중도 향상
+- 필요 시 예제 코드 추가
 
 <br>
 
 ## 📝 학습 방식
 
-1. 개념 정리 (README 중심)
-2. 간단한 코드 실습
-3. 오류/이슈 기록
-4. 배운 내용 요약
+각 언어별 README는 아래 구조를 따릅니다.
+1. 언어 개요 및 사용 목적
+2. 핵심 문법 / 구조적 특징
+3. 메모리 모델 및 실행 방식
+4. 장점과 단점
+5. 백엔드 관점에서의 활용
+6. 자주 나오는 면접 질문 정리
 
 → **다시 봐도 이해되는 기록**을 목표로 함
+
+<br>
+
+## 🔍 비교 중심 학습 포인트
+
+- Python vs Java: 동적 타이핑과 정적 타이핑 차이
+- C/C++ vs Java: 메모리 관리 책임 차이
+- JavaScript vs Java: 실행 모델과 비동기 처리
+- C#과 Java의 공통점과 차이점
+
+→ **“언어를 바꿔도 사고는 유지되는가”를 기준으로 학습**
 
 <br>
 
@@ -83,12 +89,6 @@ TechStack-Study
 - 백엔드 개발자 취업 포트폴리오
 - 기술 면접 대비용 개인 노트
 - 이후 개인 프로젝트 및 확장 학습의 기반
-
-<br>
-
-## 📅 업데이트
-
-- 지속적으로 주차별 / 주제별 학습 내용 추가 예정
 
 <br>
 
